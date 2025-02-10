@@ -1,4 +1,4 @@
-Welcome to the skchange tutorial at Hydro Data Science Forum
+`skchange` tutorial at Hydro Data Science Forum
 ============================================================
 
 This tutorial is about [skchange] and [sktime].
