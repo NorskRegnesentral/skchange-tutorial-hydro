@@ -35,17 +35,20 @@ We invite anyone to get involved as a developer, user or supporter.
 
 ## :floppy_disk: Installation
 
-Here's how to run the notebooks locally using [python virtual environment].
-This tutorial has only been tested on Windows using [VSCode].
+Here's how to run the notebooks locally using [python virtual environment] and [VSCode].
+This tutorial has only been tested on Windows using Python 3.12.9.
 Apologies if some details are missing for other setups.
 
 [VSCode]: https://code.visualstudio.com/
 [python virtual environment]: https://docs.python.org/3/tutorial/venv.html
 
-### Clone the repository
+### Clone the repository and enter the directory
 ```
 git clone https://github.com/NorskRegnesentral/skchange-tutorial-hydro
 ```
+
+### Open the cloned repository
+Click `Open folder` in [VSCode] and select the cloned repository.
 
 ### Create a python virtual environment
 ```
@@ -74,6 +77,7 @@ pip install -r requirements.txt
 2. Run through the notebooks and cells in order.
 
     * When [VSCode] asks if you want to activate the `.venv` environment for Jupyter, click "Yes".
+    * If you are not prompted to activate the `.venv` environment, you can select it manually by clicking on the kernel button in the top right corner of the notebook. You may have to reload the window for the `.venv` environment to appear.
 
 
 ## :movie_camera: Other Tutorials
