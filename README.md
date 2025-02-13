@@ -33,7 +33,7 @@ We invite anyone to get involved as a developer, user or supporter.
 [conda]: https://docs.conda.io/en/latest/
 [installation instructions]: https://www.sktime.net/en/latest/installation.html
 
-## Installation
+## :floppy_disk: Installation
 
 Here's how to run the notebooks locally using [python virtual environment].
 This tutorial has only been tested on Windows using [VSCode].
@@ -68,7 +68,7 @@ Windows
 pip install -r requirements.txt
 ```
 
-## Running the tutorial
+## :arrow_forward: Running the tutorial
 
 1. Open the notebooks folder.
 2. Run through the notebooks and cells in order.
