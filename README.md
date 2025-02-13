@@ -15,32 +15,19 @@ This workshop gives a hands-on introduction to the new joint detection interface
 
 ## :bulb: Description
 
-The tutorial will give an introduction to the detection API in skchange and sktime, with a focus on unsupervised detection of anomalies and change points. The tutorial includes:
+The tutorial will give an introduction to the detection API in skchange and sktime, with a focus on unsupervised detection of segment anomalies and change points. The tutorial includes:
 
-- An introduction to the different types of detection tasks for time series data: anomalies, changepoints, point/set/segment, un/supervised, stream, panel, uni/multivariate
-- `skchange` and `sktime` for anomaly, changepoint detection
-- cost and score functions for anomaly and changepoint detectors
-- pipelines for anomaly and changepoint detection
+- An introduction to the different types of detection tasks for time series data:
 
-`skchange` is developed at Norsk Regnesentral.
+    * Change detection
+    * Segmentation
+    * Point anomaly detection
+    * Segment anomaly detection
+    * Subset anomaly detection for multivariate data
+- How to use `skchange` and `sktime` for these tasks
+- Cost and score functions for anomaly and changepoint detectors
 
-Both `skchange` and `sktime` are developed by open communities, with aims of ecosystem integration in a neutral, charitable space. We welcome contributions and seek to provides opportunity for anyone worldwide.
-
-We invite anyone to get involved as a developer, user, supporter (or any combination of these).
-
-
-
-## :rocket: Get started
-
-1. [Installation](#installation)
-2. [Running the tutorial](#running-the-tutorial)
-
-In the tutorial, we will move through notebooks section by section.
-
-You have different options how to run the tutorial notebooks:
-
-* Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
-* or, use python venv, and/or an editable install of this repo as a package. Instructions below.
+We invite anyone to get involved as a developer, user or supporter.
 
 [clone]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 [conda]: https://docs.conda.io/en/latest/
@@ -50,7 +37,7 @@ You have different options how to run the tutorial notebooks:
 
 Here's how to run the notebooks locally using [python virtual environment].
 This tutorial has only been tested on Windows using [VSCode].
-Appologies if some details are missing for other setups.
+Apologies if some details are missing for other setups.
 
 [VSCode]: https://code.visualstudio.com/
 [python virtual environment]: https://docs.python.org/3/tutorial/venv.html
@@ -83,10 +70,10 @@ pip install -r requirements.txt
 
 ## Running the tutorial
 
-1. Open the /notebooks folder.
+1. Open the notebooks folder.
 2. Run through the notebooks and cells in order.
 
-    * When VSCode asks if you want to activate the `.venv` environment for Jupyter, click "Yes".
+    * When [VSCode] asks if you want to activate the `.venv` environment for Jupyter, click "Yes".
 
 
 ## :movie_camera: Other Tutorials
