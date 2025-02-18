@@ -177,7 +177,9 @@ def plot_interval_costs(
     fig = px.line(df)
 
     if optim_mean:
-        means = [df.iloc[interval[0] : interval[1]].mean()[0] for interval in intervals]
+        means = [
+            df.iloc[interval[0] : interval[1]].mean().iloc[0] for interval in intervals
+        ]
     else:
         means = [None] * len(intervals)
 
